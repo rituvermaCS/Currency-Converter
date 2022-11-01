@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'CurrrencyConvertor';
+  num : number = 0;
+  convert(){
+      public dropDownValue = "";
+      SetDropDownValue(drpValue : any){
+      this.dropDownValue = drpValue.target.value;
+
+  }
+  }
 }
